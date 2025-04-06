@@ -7,30 +7,18 @@
       "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculohibrido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculohibrido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculotodoterreno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculotodoterreno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculodeportivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculodeportivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,67 +42,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "Modelos\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Vehiculo.cs",
+              "RelativeToolTip": "Modelos\\Vehiculo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:47:54.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Carrera.cs",
               "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Carrera.cs",
               "RelativeDocumentMoniker": "Modelos\\Carrera.cs",
               "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Carrera.cs",
               "RelativeToolTip": "Modelos\\Carrera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAcwHMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T02:27:15.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehiculoHibrido.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoHibrido.cs",
-              "RelativeDocumentMoniker": "Modelos\\VehiculoHibrido.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoHibrido.cs",
-              "RelativeToolTip": "Modelos\\VehiculoHibrido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T02:13:05.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vehiculo.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Vehiculo.cs",
-              "RelativeDocumentMoniker": "Modelos\\Vehiculo.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Vehiculo.cs",
-              "RelativeToolTip": "Modelos\\Vehiculo.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T02:04:13.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VehiculoTodoTerreno.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoTodoTerreno.cs",
-              "RelativeDocumentMoniker": "Modelos\\VehiculoTodoTerreno.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoTodoTerreno.cs",
-              "RelativeToolTip": "Modelos\\VehiculoTodoTerreno.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T02:02:48.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VehiculoDeportivo.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoDeportivo.cs",
-              "RelativeDocumentMoniker": "Modelos\\VehiculoDeportivo.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoDeportivo.cs",
-              "RelativeToolTip": "Modelos\\VehiculoDeportivo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T01:33:37.481Z",
+              "WhenOpened": "2025-04-06T04:00:29.299Z",
               "EditorCaption": ""
             }
           ]

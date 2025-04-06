@@ -77,10 +77,45 @@ namespace wRaceX.Modelos
 
             foreach (var auto in Vehiculos)
             {
-                Vehiculos.avanzar(Clima))
+                auto.Avanzar(Clima);
             }
+
+            //Obstaculo aleatorio
+            if(random.Next() <0.3)
+            {
+                // Aplicar obstáculo a un vehículo aleatorio 
+                // Se usa el random para seleccionar un vehículo aleatorio
+                var afectado = Vehiculos[random.Next(Vehiculos.Count)];
+
+                // Aplicar obstáculo al vehículo afectado 
+                afectado.AplicarObstaculo();
+                return $"El vehículo {afectado.Nombre} ha sido afectado por un obstáculo y su distancia recorrida se ha reducido -5mts.";
+            }
+
+            // Verificar si hay un ganador
+            var ganador = Vehiculos.FirstOrDefault(v => v.DistanciaRecorrida >= 150);
+            if (ganador != null)
+            {
+                Ganador = ganador;
+                inCurso = false;
+                return $"El vehículo {Ganador.Nombre} ha ganado la carrera.";
+            }
+
+            return "Turno completado";
+
+
         }
 
-        
+        public void Reiniciar()
+        {
+            inCurso = false;
+            Ganador = null;
+            Clima = null;
+            Vehiculos.Clear();
+            // Reiniciar la distancia recorrida de todos los vehículos
+            
+        }
+
+
     }
 }
