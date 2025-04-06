@@ -40,5 +40,7 @@ namespace wRaceX
             DistanciaRecorrida = Math.Max(0, DistanciaRecorrida - 5);
         }
 
+
+
     }
 }
