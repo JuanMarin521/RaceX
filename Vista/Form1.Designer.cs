@@ -37,19 +37,28 @@
             this.comboBoxVehiculo = new System.Windows.Forms.ComboBox();
             this.btnAgregarVehiculo = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.dgvVehiculos = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBoxClima = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnIniciarCarrera = new System.Windows.Forms.Button();
+            this.btnSiguienteTurno = new System.Windows.Forms.Button();
+            this.btnReiniciar = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.Obstaculo = new System.Windows.Forms.Label();
+            this.labelGanador = new System.Windows.Forms.Label();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Distancia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.listBoxMessages = new System.Windows.Forms.ListBox();
+            this.flpProgreso = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVehiculos)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNombreVehiculo
             // 
-            this.txtNombreVehiculo.Location = new System.Drawing.Point(123, 96);
+            this.txtNombreVehiculo.Location = new System.Drawing.Point(117, 45);
             this.txtNombreVehiculo.Name = "txtNombreVehiculo";
             this.txtNombreVehiculo.Size = new System.Drawing.Size(100, 20);
             this.txtNombreVehiculo.TabIndex = 0;
@@ -57,7 +66,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(57, 99);
+            this.lblNombre.Location = new System.Drawing.Point(51, 48);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(47, 13);
             this.lblNombre.TabIndex = 1;
@@ -66,7 +75,7 @@
             // lblRegistroVehiculos
             // 
             this.lblRegistroVehiculos.AutoSize = true;
-            this.lblRegistroVehiculos.Location = new System.Drawing.Point(79, 64);
+            this.lblRegistroVehiculos.Location = new System.Drawing.Point(73, 13);
             this.lblRegistroVehiculos.Name = "lblRegistroVehiculos";
             this.lblRegistroVehiculos.Size = new System.Drawing.Size(130, 13);
             this.lblRegistroVehiculos.TabIndex = 2;
@@ -83,7 +92,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(230, 38);
+            this.label1.Location = new System.Drawing.Point(289, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 13);
             this.label1.TabIndex = 4;
@@ -92,7 +101,7 @@
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
-            this.lblTipo.Location = new System.Drawing.Point(57, 154);
+            this.lblTipo.Location = new System.Drawing.Point(51, 90);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(31, 13);
             this.lblTipo.TabIndex = 5;
@@ -105,69 +114,47 @@
             "Deportivo",
             "Hibrido",
             "Todoterreno"});
-            this.comboBoxVehiculo.Location = new System.Drawing.Point(123, 151);
+            this.comboBoxVehiculo.Location = new System.Drawing.Point(117, 82);
             this.comboBoxVehiculo.Name = "comboBoxVehiculo";
             this.comboBoxVehiculo.Size = new System.Drawing.Size(100, 21);
             this.comboBoxVehiculo.TabIndex = 6;
             // 
             // btnAgregarVehiculo
             // 
-            this.btnAgregarVehiculo.Location = new System.Drawing.Point(60, 205);
+            this.btnAgregarVehiculo.Location = new System.Drawing.Point(54, 120);
             this.btnAgregarVehiculo.Name = "btnAgregarVehiculo";
             this.btnAgregarVehiculo.Size = new System.Drawing.Size(163, 23);
             this.btnAgregarVehiculo.TabIndex = 7;
             this.btnAgregarVehiculo.Text = "Agregar vehiculo";
             this.btnAgregarVehiculo.UseVisualStyleBackColor = true;
+            this.btnAgregarVehiculo.Click += new System.EventHandler(this.btnAgregarVehiculo_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 261);
+            this.label2.Location = new System.Drawing.Point(289, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "📃 Lista de Vehículos Registrados ";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(37, 303);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Nombre";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(131, 303);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Tipo";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(208, 303);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Distancia";
-            // 
             // dgvVehiculos
             // 
             this.dgvVehiculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVehiculos.Location = new System.Drawing.Point(38, 341);
+            this.dgvVehiculos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Nombre,
+            this.Tipo,
+            this.Distancia});
+            this.dgvVehiculos.Location = new System.Drawing.Point(292, 67);
             this.dgvVehiculos.Name = "dgvVehiculos";
-            this.dgvVehiculos.Size = new System.Drawing.Size(220, 38);
+            this.dgvVehiculos.Size = new System.Drawing.Size(342, 192);
             this.dgvVehiculos.TabIndex = 14;
             this.dgvVehiculos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVehiculos_CellContentClick);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(35, 404);
+            this.label6.Location = new System.Drawing.Point(104, 163);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 13);
             this.label6.TabIndex = 15;
@@ -176,7 +163,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(35, 438);
+            this.label7.Location = new System.Drawing.Point(51, 190);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 16;
@@ -189,23 +176,127 @@
             "Soleado",
             "Lluvia",
             "Ventoso"});
-            this.comboBoxClima.Location = new System.Drawing.Point(159, 435);
+            this.comboBoxClima.Location = new System.Drawing.Point(118, 187);
             this.comboBoxClima.Name = "comboBoxClima";
-            this.comboBoxClima.Size = new System.Drawing.Size(100, 21);
+            this.comboBoxClima.Size = new System.Drawing.Size(99, 21);
             this.comboBoxClima.TabIndex = 17;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(98, 223);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(102, 13);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Controles de carrera";
+            // 
+            // btnIniciarCarrera
+            // 
+            this.btnIniciarCarrera.Location = new System.Drawing.Point(36, 249);
+            this.btnIniciarCarrera.Name = "btnIniciarCarrera";
+            this.btnIniciarCarrera.Size = new System.Drawing.Size(59, 39);
+            this.btnIniciarCarrera.TabIndex = 19;
+            this.btnIniciarCarrera.Text = "Iniciar Carrera";
+            this.btnIniciarCarrera.UseVisualStyleBackColor = true;
+            this.btnIniciarCarrera.Click += new System.EventHandler(this.btnIniciarCarrera_Click);
+            // 
+            // btnSiguienteTurno
+            // 
+            this.btnSiguienteTurno.Location = new System.Drawing.Point(107, 249);
+            this.btnSiguienteTurno.Name = "btnSiguienteTurno";
+            this.btnSiguienteTurno.Size = new System.Drawing.Size(72, 39);
+            this.btnSiguienteTurno.TabIndex = 20;
+            this.btnSiguienteTurno.Text = "Siguiente turno";
+            this.btnSiguienteTurno.UseVisualStyleBackColor = true;
+            this.btnSiguienteTurno.Click += new System.EventHandler(this.btnSiguienteTurno_Click);
+            // 
+            // btnReiniciar
+            // 
+            this.btnReiniciar.Location = new System.Drawing.Point(196, 249);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(59, 39);
+            this.btnReiniciar.TabIndex = 21;
+            this.btnReiniciar.Text = "Reiniciar carrera";
+            this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(409, 290);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(107, 13);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "Avance de vehiculos";
+            // 
+            // Obstaculo
+            // 
+            this.Obstaculo.AutoSize = true;
+            this.Obstaculo.Location = new System.Drawing.Point(33, 306);
+            this.Obstaculo.Name = "Obstaculo";
+            this.Obstaculo.Size = new System.Drawing.Size(58, 13);
+            this.Obstaculo.TabIndex = 25;
+            this.Obstaculo.Text = "Obstaculo:";
+            // 
+            // labelGanador
+            // 
+            this.labelGanador.AutoSize = true;
+            this.labelGanador.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGanador.Location = new System.Drawing.Point(32, 612);
+            this.labelGanador.Name = "labelGanador";
+            this.labelGanador.Size = new System.Drawing.Size(80, 21);
+            this.labelGanador.TabIndex = 26;
+            this.labelGanador.Text = "Ganador:";
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Tipo
+            // 
+            this.Tipo.HeaderText = "Tipo";
+            this.Tipo.Name = "Tipo";
+            // 
+            // Distancia
+            // 
+            this.Distancia.HeaderText = "Distancia";
+            this.Distancia.Name = "Distancia";
+            this.Distancia.ReadOnly = true;
+            // 
+            // listBoxMessages
+            // 
+            this.listBoxMessages.FormattingEnabled = true;
+            this.listBoxMessages.Location = new System.Drawing.Point(36, 331);
+            this.listBoxMessages.Name = "listBoxMessages";
+            this.listBoxMessages.Size = new System.Drawing.Size(193, 251);
+            this.listBoxMessages.TabIndex = 27;
+            // 
+            // flpProgreso
+            // 
+            this.flpProgreso.Location = new System.Drawing.Point(292, 306);
+            this.flpProgreso.Name = "flpProgreso";
+            this.flpProgreso.Size = new System.Drawing.Size(342, 278);
+            this.flpProgreso.TabIndex = 28;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(696, 642);
+            this.Controls.Add(this.flpProgreso);
+            this.Controls.Add(this.listBoxMessages);
+            this.Controls.Add(this.labelGanador);
+            this.Controls.Add(this.Obstaculo);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.btnReiniciar);
+            this.Controls.Add(this.btnSiguienteTurno);
+            this.Controls.Add(this.btnIniciarCarrera);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.comboBoxClima);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dgvVehiculos);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAgregarVehiculo);
             this.Controls.Add(this.comboBoxVehiculo);
@@ -235,13 +326,22 @@
         private System.Windows.Forms.ComboBox comboBoxVehiculo;
         private System.Windows.Forms.Button btnAgregarVehiculo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dgvVehiculos;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBoxClima;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnIniciarCarrera;
+        private System.Windows.Forms.Button btnSiguienteTurno;
+        private System.Windows.Forms.Button btnReiniciar;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Obstaculo;
+        private System.Windows.Forms.Label labelGanador;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Distancia;
+        private System.Windows.Forms.ListBox listBoxMessages;
+        private System.Windows.Forms.FlowLayoutPanel flpProgreso;
     }
 }
 

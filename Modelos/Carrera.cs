@@ -25,20 +25,14 @@ namespace wRaceX.Modelos
 
         public void AgregarVehiculo(Vehiculo vehiculo)
         {
-            if(!inCurso)
+            if (!inCurso)
             {
-                // Agrega un vehículo a la lista de vehículos participantes
                 Vehiculos.Add(vehiculo);
             }
             else
             {
                 throw new InvalidOperationException("No se pueden agregar vehículos una vez que la carrera ha comenzado.");
             }
-
-            if(Vehiculos.Any(a => a.Nombre == vehiculo.Nombre)){
-                throw new ArgumentException($"Ya existe un vehículo con el nombre {vehiculo.Nombre}.");
-            }
-            Vehiculos.Add(vehiculo);
         }
 
         public void SeleccionarClima(string clima)
@@ -53,14 +47,19 @@ namespace wRaceX.Modelos
             throw new InvalidOperationException("No se puede seleccionar el clima una vez que la carrera ha comenzado.");
         }
 
-        public void IniciarCarrera()
+        public void IniciarCarrera(string clima)
         {
+            if (inCurso)
+            {
+                throw new InvalidOperationException("La carrera ya está en curso.");
+            }
+
             if (Vehiculos.Count < 3)
             {
                 throw new InvalidOperationException("Se necesitan al menos 3 vehículos para iniciar la carrera.");
             }
 
-            if(string.IsNullOrEmpty(Clima))
+            if (string.IsNullOrEmpty(clima))
             {
                 throw new InvalidOperationException("El clima debe ser seleccionado antes de iniciar la carrera.");
             }
@@ -81,7 +80,7 @@ namespace wRaceX.Modelos
             }
 
             //Obstaculo aleatorio
-            if(random.Next() <0.3)
+            if(random.NextDouble() <0.3)
             {
                 // Aplicar obstáculo a un vehículo aleatorio 
                 // Se usa el random para seleccionar un vehículo aleatorio

@@ -11,6 +11,7 @@ namespace wRaceX
     public class VehiculosFactory
     {
         public VehiculosFactory() { }
+
         public static Vehiculo CrearVehiculo(string tipo, string nombre)
         {
             // Método para crear un vehículo según el tipo especificado
@@ -19,9 +20,9 @@ namespace wRaceX
             {
                 case "Deportivo":
                     return new VehiculoDeportivo(nombre);
-                case "Todo Terreno":
+                case "Todoterreno":
                     return new VehiculoTodoTerreno(nombre);
-                case "Híbrido":
+                case "Hibrido":
                     return new VehiculoHibrido(nombre);
                 default:
                     throw new ArgumentException("Tipo de vehículo no válido");

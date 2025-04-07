@@ -1,0 +1,10 @@
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\bin\Debug\wRaceX.exe.config
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\bin\Debug\wRaceX.exe
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\bin\Debug\wRaceX.pdb
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\obj\Debug\wRaceX.csproj.AssemblyReference.cache
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\obj\Debug\wRaceX.Form1.resources
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\obj\Debug\wRaceX.Properties.Resources.resources
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\obj\Debug\wRaceX.csproj.GenerateResource.cache
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\obj\Debug\wRaceX.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\obj\Debug\wRaceX.exe
+C:\Users\Pablo\source\repos\Herramientas II\RaceX\RaceX\obj\Debug\wRaceX.pdb
