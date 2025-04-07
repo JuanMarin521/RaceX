@@ -22,7 +22,12 @@ namespace wRaceX
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void dgvVehiculos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

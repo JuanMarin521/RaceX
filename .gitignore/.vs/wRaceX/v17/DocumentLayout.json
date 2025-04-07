@@ -3,108 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\walte\\source\\repos\\wRaceX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\vehiculosfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|C:\\Users\\walte\\source\\repos\\wRaceX\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|C:\\Users\\walte\\source\\repos\\wRaceX\\vehiculosfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:vehiculosfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\controller\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:controller\\validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculotodoterreno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculotodoterreno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculohibrido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculohibrido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|c:\\users\\walte\\source\\repos\\wracex\\modelos\\vehiculodeportivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81B8507-D21B-48C0-B48B-2361C0544523}|wRaceX.csproj|solutionrelative:modelos\\vehiculodeportivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VehiculosFactory.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\VehiculosFactory.cs",
-              "RelativeDocumentMoniker": "VehiculosFactory.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\VehiculosFactory.cs",
-              "RelativeToolTip": "VehiculosFactory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwB0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:45:45.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VehiculoTodoTerreno.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoTodoTerreno.cs",
-              "RelativeDocumentMoniker": "Modelos\\VehiculoTodoTerreno.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoTodoTerreno.cs",
-              "RelativeToolTip": "Modelos\\VehiculoTodoTerreno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:19:25.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VehiculoHibrido.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoHibrido.cs",
-              "RelativeDocumentMoniker": "Modelos\\VehiculoHibrido.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoHibrido.cs",
-              "RelativeToolTip": "Modelos\\VehiculoHibrido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:19:24.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VehiculoDeportivo.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoDeportivo.cs",
-              "RelativeDocumentMoniker": "Modelos\\VehiculoDeportivo.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\VehiculoDeportivo.cs",
-              "RelativeToolTip": "Modelos\\VehiculoDeportivo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:19:21.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Vehiculo.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Vehiculo.cs",
-              "RelativeDocumentMoniker": "Modelos\\Vehiculo.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Vehiculo.cs",
-              "RelativeToolTip": "Modelos\\Vehiculo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:56:07.512Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -128,27 +51,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Carrera.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Carrera.cs",
-              "RelativeDocumentMoniker": "Modelos\\Carrera.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Modelos\\Carrera.cs",
-              "RelativeToolTip": "Modelos\\Carrera.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwEsAAAANAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Vista\\Form1.cs",
+              "RelativeToolTip": "Vista\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:55:59.504Z",
+              "WhenOpened": "2025-04-07T00:21:07.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Validaciones.cs",
-              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Controller\\Validaciones.cs",
-              "RelativeDocumentMoniker": "Controller\\Validaciones.cs",
-              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Controller\\Validaciones.cs",
-              "RelativeToolTip": "Controller\\Validaciones.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwDYAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Vista\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vista\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:52:39.83Z",
+              "WhenOpened": "2025-04-06T21:05:47.556Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:05:33.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehiculosFactory.cs",
+              "DocumentMoniker": "C:\\Users\\walte\\source\\repos\\wRaceX\\VehiculosFactory.cs",
+              "RelativeDocumentMoniker": "VehiculosFactory.cs",
+              "ToolTip": "C:\\Users\\walte\\source\\repos\\wRaceX\\VehiculosFactory.cs",
+              "RelativeToolTip": "VehiculosFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:05:35.558Z",
               "EditorCaption": ""
             }
           ]
