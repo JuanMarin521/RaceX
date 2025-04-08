@@ -88,14 +88,17 @@ namespace wRaceX.Modelos
                 Ganador = posibleGanador;
                 inCurso = false;
 
-                return $"🎉 El vehículo {Ganador.Nombre} ha ganado la carrera.";
+                return $"El vehículo {Ganador.Nombre} ha ganado la carrera.";
             }
+            if (random.NextDouble() <= 0.333)
+            {
+                var afectado = Vehiculos[random.Next(Vehiculos.Count)];
+                afectado.AplicarObstaculo();
+                return $"El vehículo {afectado.Nombre} ha sido afectado por un obstáculo y su distancia se redujo -5mts.";
 
-            // Aplicar obstáculo a un vehículo aleatorio (obligatorio)
-            var afectado = Vehiculos[random.Next(Vehiculos.Count)];
-            afectado.AplicarObstaculo();
+            }
+            return "Todos los vehículos avanzaron sin obstaculos.";
 
-            return $"El vehículo {afectado.Nombre} ha sido afectado por un obstáculo y su distancia se redujo -5mts.";
         }
 
 

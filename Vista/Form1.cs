@@ -84,6 +84,7 @@ namespace wRaceX
         {
             try
             {
+                
                 string climaSeleccionado = comboBoxClima.Text.Trim();
 
                 if (string.IsNullOrEmpty(climaSeleccionado))
@@ -138,7 +139,8 @@ namespace wRaceX
         }
 
         private void btnSiguienteTurno_Click(object sender, EventArgs e)
-        {
+        { 
+            
             if (!carrera.inCurso)
             {
                 MessageBox.Show("La carrera no ha comenzado.");
@@ -191,6 +193,7 @@ namespace wRaceX
             comboBoxVehiculo.Enabled = true;
             txtNombreVehiculo.Enabled = true;
             comboBoxClima.Enabled = true;
+            btnSiguienteTurno.Enabled = true;
             listBoxMessages.Items.Clear();
 
             MessageBox.Show("La carrera ha sido reiniciada. Puedes comenzar de nuevo.");
