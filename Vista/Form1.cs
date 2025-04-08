@@ -59,20 +59,20 @@ namespace wRaceX
                 comboBoxVehiculo.SelectedIndex = -1;
                 MessageBox.Show("Vehículo agregado correctamente.");
 
-                ProgressBar barra = new ProgressBar();
+               /* ProgressBar barra = new ProgressBar();
                 barra.Maximum = 150;
                 barra.Minimum = 0;
                 barra.Value = 0;
                 barra.Width = 200;
                 barra.Height = 20;
                 barra.Margin = new Padding(5);
-
+               
                 // Agrega la barra al panel visual
                 flpProgreso.Controls.Add(barra);
 
                 // Asocia el vehículo con su barra
                 barrasVehiculos[vehiculo] = barra;
-
+               */
             }
             catch (Exception ex)
             {
@@ -91,7 +91,6 @@ namespace wRaceX
                     MessageBox.Show("Debes ingresar un clima antes de iniciar la carrera (Soleado, Lluvia o Ventoso).");
                     return;
                 }
-                
 
                 Validaciones.ValidarClima(climaSeleccionado);
 
@@ -167,7 +166,6 @@ namespace wRaceX
 
             if (carrera.Ganador != null)
             {
-                labelGanador.Text = $" {carrera.Ganador.Nombre}";
                 btnSiguienteTurno.Enabled = false;
             }
 
@@ -193,6 +191,7 @@ namespace wRaceX
             btnAgregarVehiculo.Enabled = true;
             btnIniciarCarrera.Enabled = true;
             btnSiguienteTurno.Enabled = false;
+            listBoxMessages.Items.Clear();
 
             MessageBox.Show("La carrera ha sido reiniciada. Puedes comenzar de nuevo.");
 

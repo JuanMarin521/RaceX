@@ -36,15 +36,15 @@ namespace wRaceX.Modelos
         }
 
         public void SeleccionarClima(string clima)
+        
         {
-            if (!inCurso)
+            if (inCurso)
             {
-                // Selecciona el clima para la carrera
-                Clima = clima;
+                throw new InvalidOperationException("No se puede seleccionar el clima una vez que la carrera ha comenzado.");
             }
 
+            Clima = clima;
 
-            throw new InvalidOperationException("No se puede seleccionar el clima una vez que la carrera ha comenzado.");
         }
 
         public void IniciarCarrera(string clima)
@@ -64,46 +64,40 @@ namespace wRaceX.Modelos
                 throw new InvalidOperationException("El clima debe ser seleccionado antes de iniciar la carrera.");
             }
 
+            SeleccionarClima(clima);
             inCurso = true;
         }
 
         public string SiguienteTurno()
         {
-            if(!inCurso || Ganador!=null)
+            if (!inCurso || Ganador != null)
             {
                 return "La carrera no está en curso o ya ha terminado.";
             }
 
+            // Avanzar todos los vehículos
             foreach (var auto in Vehiculos)
             {
                 auto.Avanzar(Clima);
             }
 
-            //Obstaculo aleatorio
-            if(random.NextDouble() <0.3)
+            // Verificar si hay un ganador antes de aplicar obstáculos
+            var posibleGanador = Vehiculos.FirstOrDefault(v => v.DistanciaRecorrida >= 150);
+            if (posibleGanador != null)
             {
-                // Aplicar obstáculo a un vehículo aleatorio 
-                // Se usa el random para seleccionar un vehículo aleatorio
-                var afectado = Vehiculos[random.Next(Vehiculos.Count)];
-
-                // Aplicar obstáculo al vehículo afectado 
-                afectado.AplicarObstaculo();
-                return $"El vehículo {afectado.Nombre} ha sido afectado por un obstáculo y su distancia recorrida se ha reducido -5mts.";
-            }
-
-            // Verificar si hay un ganador
-            var ganador = Vehiculos.FirstOrDefault(v => v.DistanciaRecorrida >= 150);
-            if (ganador != null)
-            {
-                Ganador = ganador;
+                Ganador = posibleGanador;
                 inCurso = false;
-                return $"El vehículo {Ganador.Nombre} ha ganado la carrera.";
+
+                return $"🎉 El vehículo {Ganador.Nombre} ha ganado la carrera.";
             }
 
-            return "Turno completado";
+            // Aplicar obstáculo a un vehículo aleatorio (obligatorio)
+            var afectado = Vehiculos[random.Next(Vehiculos.Count)];
+            afectado.AplicarObstaculo();
 
-
+            return $"El vehículo {afectado.Nombre} ha sido afectado por un obstáculo y su distancia se redujo -5mts.";
         }
+
 
         public void Reiniciar()
         {

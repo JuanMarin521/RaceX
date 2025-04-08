@@ -38,6 +38,9 @@
             this.btnAgregarVehiculo = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvVehiculos = new System.Windows.Forms.DataGridView();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Distancia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBoxClima = new System.Windows.Forms.ComboBox();
@@ -47,10 +50,6 @@
             this.btnReiniciar = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.Obstaculo = new System.Windows.Forms.Label();
-            this.labelGanador = new System.Windows.Forms.Label();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Distancia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.listBoxMessages = new System.Windows.Forms.ListBox();
             this.flpProgreso = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVehiculos)).BeginInit();
@@ -140,6 +139,7 @@
             // 
             // dgvVehiculos
             // 
+            this.dgvVehiculos.AllowUserToAddRows = false;
             this.dgvVehiculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVehiculos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nombre,
@@ -150,6 +150,22 @@
             this.dgvVehiculos.Size = new System.Drawing.Size(342, 192);
             this.dgvVehiculos.TabIndex = 14;
             this.dgvVehiculos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVehiculos_CellContentClick);
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Tipo
+            // 
+            this.Tipo.HeaderText = "Tipo";
+            this.Tipo.Name = "Tipo";
+            // 
+            // Distancia
+            // 
+            this.Distancia.HeaderText = "Distancia";
+            this.Distancia.Name = "Distancia";
+            this.Distancia.ReadOnly = true;
             // 
             // label6
             // 
@@ -238,45 +254,19 @@
             this.Obstaculo.TabIndex = 25;
             this.Obstaculo.Text = "Obstaculo:";
             // 
-            // labelGanador
-            // 
-            this.labelGanador.AutoSize = true;
-            this.labelGanador.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGanador.Location = new System.Drawing.Point(32, 612);
-            this.labelGanador.Name = "labelGanador";
-            this.labelGanador.Size = new System.Drawing.Size(80, 21);
-            this.labelGanador.TabIndex = 26;
-            this.labelGanador.Text = "Ganador:";
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            // 
-            // Tipo
-            // 
-            this.Tipo.HeaderText = "Tipo";
-            this.Tipo.Name = "Tipo";
-            // 
-            // Distancia
-            // 
-            this.Distancia.HeaderText = "Distancia";
-            this.Distancia.Name = "Distancia";
-            this.Distancia.ReadOnly = true;
-            // 
             // listBoxMessages
             // 
             this.listBoxMessages.FormattingEnabled = true;
             this.listBoxMessages.Location = new System.Drawing.Point(36, 331);
             this.listBoxMessages.Name = "listBoxMessages";
-            this.listBoxMessages.Size = new System.Drawing.Size(193, 251);
+            this.listBoxMessages.Size = new System.Drawing.Size(283, 251);
             this.listBoxMessages.TabIndex = 27;
             // 
             // flpProgreso
             // 
-            this.flpProgreso.Location = new System.Drawing.Point(292, 306);
+            this.flpProgreso.Location = new System.Drawing.Point(342, 331);
             this.flpProgreso.Name = "flpProgreso";
-            this.flpProgreso.Size = new System.Drawing.Size(342, 278);
+            this.flpProgreso.Size = new System.Drawing.Size(292, 251);
             this.flpProgreso.TabIndex = 28;
             // 
             // Form1
@@ -286,7 +276,6 @@
             this.ClientSize = new System.Drawing.Size(696, 642);
             this.Controls.Add(this.flpProgreso);
             this.Controls.Add(this.listBoxMessages);
-            this.Controls.Add(this.labelGanador);
             this.Controls.Add(this.Obstaculo);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnReiniciar);
@@ -336,7 +325,6 @@
         private System.Windows.Forms.Button btnReiniciar;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label Obstaculo;
-        private System.Windows.Forms.Label labelGanador;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Distancia;

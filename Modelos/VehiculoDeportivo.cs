@@ -8,6 +8,7 @@ namespace wRaceX.Modelos
 {
     public class VehiculoDeportivo : Vehiculo
     {
+        private static Random random = new Random();
         public VehiculoDeportivo(string nombre) : base (nombre, "Deportivo")
         {
             
@@ -16,7 +17,7 @@ namespace wRaceX.Modelos
         public override int calcularAvance(string clima)
         {
             //aleatorizar el avance entre 5 y 15
-            int baseAvance = new Random().Next(5, 16);
+            int baseAvance = random.Next(5, 16);
 
             // Si el clima es soleado, se suma 3 al avance
             return clima == "Soleado" ? baseAvance + 3 : baseAvance;
