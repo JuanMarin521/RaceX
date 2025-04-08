@@ -184,13 +184,13 @@ namespace wRaceX
             // Limpiar visualización
             dgvVehiculos.Rows.Clear();
             flpProgreso.Controls.Clear();
-            //lblGanador.Text = string.Empty;
-            //lblMensajeTurno.Text = string.Empty;
+          
 
             // Habilitar los botones necesarios
             btnAgregarVehiculo.Enabled = true;
-            btnIniciarCarrera.Enabled = true;
-            btnSiguienteTurno.Enabled = false;
+            comboBoxVehiculo.Enabled = true;
+            txtNombreVehiculo.Enabled = true;
+            comboBoxClima.Enabled = true;
             listBoxMessages.Items.Clear();
 
             MessageBox.Show("La carrera ha sido reiniciada. Puedes comenzar de nuevo.");
